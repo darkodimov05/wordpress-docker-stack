@@ -39,10 +39,14 @@ services:
     restart: always
     ports:
       - '80:80'
+    env_file:
+      - .env
     environment:
       PMA_HOST: db
-      MYSQL_ROOT_PASSWORD: root123 
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     depends_on:
       - db
+
+
 volumes:
     db_data:
