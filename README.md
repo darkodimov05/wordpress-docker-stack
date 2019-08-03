@@ -7,7 +7,7 @@ Firstly, i'm building a database container from the mysql image with the tag ver
 > MYSQL_ROOT_PASSWORD  
 > MYSQL_USER     -- for the wordpress user  
 > MYSQL_PASSWORD -- for the wordpress password  
-* create persistent volume 'dbdata'.
+* created persistent volume 'dbdata'.
 
 Next, i'm building a docker container with a specified wordpress version "5.1.1" with the following:
 * bind mount *wp_data* to */var/www/html* in order to avoid rebuilding image on every change in *wp_data* directory.
