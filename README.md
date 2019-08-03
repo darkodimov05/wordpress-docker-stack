@@ -23,7 +23,7 @@ Lastly, i'm building phpMyAdmin container mapped on local port 80.
 
 1. Clone the repository locally
 2. Copy the .env.example file to .env and modify the environment vars. For example:    
-`MYSQL_ROOT_PASSWORD=admin123`  
+`MYSQL_ROOT_PASSWORD=typerandomrootpassword`  
 `MYSQL_USER=wordpress_user`  
 `MYSQL_PASSWORD=changethispasswordnow`  
 
