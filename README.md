@@ -23,9 +23,9 @@ Lastly, i'm building phpMyAdmin container mapped on local port 80.
 
 1. Clone the repository locally
 2. Copy the .env.example file to .env and modify the environment vars. For example:    
-`MYSQL_ROOT_PASSWORD=admin123`
-`MYSQL_USER=wordpress_user`
-`MYSQL_PASSWORD=changethispasswordnow`
+`MYSQL_ROOT_PASSWORD=admin123`  
+`MYSQL_USER=wordpress_user`  
+`MYSQL_PASSWORD=changethispasswordnow`  
 
 Note: **Make sure the .env file is located in the same directory as the docker-compose file.**  
   
