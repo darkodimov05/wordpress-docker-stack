@@ -43,11 +43,11 @@ localhost awesome.website
 ```  
 6. To access the wordpress instance, type in browser:  
 ```console  
- awesome.website:52  
+ http://awesome.website:52  
 ```  
 7. To access the phpmyadmin instance, type in browser:
 ```console  
- awesome.website    
+ http://awesome.website    
 ```  
 8. To stop the containers, type the following command:
 ```console   
