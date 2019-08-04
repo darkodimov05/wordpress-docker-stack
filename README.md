@@ -2,7 +2,7 @@
 
 Dockerizing Wordpress for a local development.
 
-Firstly, i'm building a database container from the mysql image with the tag version 5.7 which is the latest stable version from 5.*, including:
+Firstly, i'm running a database container from the mysql image with the tag version 5.7 which is the latest stable version from 5.*, including:
 * following environment variables stored in .env file:  
 > MYSQL_ROOT_PASSWORD  
 > MYSQL_USER     -- for the wordpress user  
